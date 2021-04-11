@@ -1,6 +1,6 @@
 # DCA strategy calculator
 
-How much would you have earn if you had invested $50 each month on Amazon's stock from a given date? 
+💸 How much would you have earned if you had wagered 50€/month on AMZN from its IPO? 
 If this is a question you already asked yourself, then this program is for you.
 
 Example output: 
@@ -104,7 +104,7 @@ $ ruby main.rb
 
 ## Choosing stocks
 
-Alpha Vantage API have more than 100 000+ supported stocks, however, it can be sometimes difficult to find the right code for your stock. You can use the `search_stock(keywords)` method to output a list of stocks that match specifics keywords. Once you have the output, just take the right symbol for the stock you were searching for. 
+Alpha Vantage API have more than 100 000+ supported stocks, however, it can be sometimes difficult to find the right symbol for your stock. You can use the `search_stock(keywords)` method to output a list of stocks that match specifics keywords. Once you have the output, just take the right symbol for the stock you were searching for. 
 
 Note that this works only on equity stocks, and not on indexes, ETFs, FOREX or cryptos, even if the stock appeared in the search result. This is mainly because I hadn't implemented these and also because of the API that doesn't provide access to monthly data from ETFs and indexes. 
 
